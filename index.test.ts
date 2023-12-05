@@ -17,7 +17,7 @@ describe("Number utility functions", () => {
       [0, "Rp 0"],
       [-1000, "-Rp 1.000"],
       [-15000, "-Rp 15.000"],
-      [-1234567890, "-Rp1.234.567.890"],
+      [-1234567890, "-Rp 1.234.567.890"],
     ])(
       "toRupiah() - %i should handle zero and negative correctly as %s",
       (input, expected) => {
